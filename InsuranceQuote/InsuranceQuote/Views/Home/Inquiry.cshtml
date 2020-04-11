@@ -1,0 +1,16 @@
+﻿@using InsuranceQuote.Models
+@model Quote
+
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-4 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Car Insurance Quote</h5>
+        </div>
+        <div class="card-body">
+                <div class="row no-gutters">
+                    Your quoted price for a @Model.CarYear @Model.CarMake @Model.CarModel is:&nbsp; <bold>$@Model.Cost</bold>
+                </div>
+        </div>
+    </div>
+</div>
