@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Book Database</title>
+    <link href="Content/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>Books <small data-bind="text: genre"><span></span></small></h1>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <ul class="nav nav-pills nav-stacked" data-bind="foreach: genres">
+                            <!-- Loop through genres array, create new li for each item -->
+                            <li><a href="#" data-bind="click: $parent.getByGenre"><span data-bind="text: $data"></span></a></li>      <!-- <a> Click event bound to getByGenre function     <span> text = name of genre -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="span8">
+                <div>
+                    <table class="table table-bordered table-condensed" data-bind="visible: books().length > 0">
+                        <!-- If books is empty, hide table -->
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>Year Published</th>
+                                <th>Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach: books">
+                            <!-- loop through array of books -->
+                            <tr>
+                                <td><span data-bind="text: Title"></span></td>      <!-- Title of current book -->
+                                <td><span data-bind="text: Author"></span></td>     <!-- Author of current book -->
+                                <td><span data-bind="text: Year"></span></td>
+                                <td><span data-bind="text: Rating"></span></td>
+                                <td><!-- checkout goes here --></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p></p>
+            <p>None Available</p>
+        </div>
+    </div>
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/knockout-3.5.1.js"></script>
+    <script src="Scripts/app/app.service.js"></script>
+    <script src="Scripts/app/app.js"></script>
+</body>
+</html>
