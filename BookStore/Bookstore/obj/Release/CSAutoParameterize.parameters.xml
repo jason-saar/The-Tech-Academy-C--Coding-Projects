@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="BookstoreContext-Web.config Connection String" description="BookstoreContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=BookstoreContext-20200411200133; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|BookstoreContext-20200411200133.mdf" tags="SqlConnectionString">
+  <parameter name="BookstoreContext-Web.config Connection String" description="BookstoreContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=BookstoreContext2-20200411200133; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|BookstoreContext-20200411200133.mdf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Jason\\Desktop\\C\#\\The-Tech-Academy-C\#-Coding-Projects\\BookStore\\Bookstore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookstoreContext']/@connectionString" />
   </parameter>
 </parameters>

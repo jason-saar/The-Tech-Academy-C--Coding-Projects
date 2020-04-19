@@ -86,3 +86,4 @@ C:\Users\Jason\Desktop\C#\The-Tech-Academy-C#-Coding-Projects\BookStore\Bookstor
 C:\Users\Jason\Desktop\C#\The-Tech-Academy-C#-Coding-Projects\BookStore\Bookstore\obj\Debug\Bookstore.Migrations.Initial.resources
 C:\Users\Jason\Desktop\C#\The-Tech-Academy-C#-Coding-Projects\BookStore\Bookstore\obj\Debug\Bookstore.csproj.GenerateResource.cache
 C:\Users\Jason\Desktop\C#\The-Tech-Academy-C#-Coding-Projects\BookStore\Bookstore\obj\Debug\Bookstore.csprojAssemblyReference.cache
+C:\Users\Jason\Desktop\C#\The-Tech-Academy-C#-Coding-Projects\BookStore\Bookstore\obj\Debug\Bookstore.Migrations.InitialCreate.resources
